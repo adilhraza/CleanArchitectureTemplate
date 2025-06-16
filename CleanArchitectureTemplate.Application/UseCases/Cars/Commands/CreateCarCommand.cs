@@ -14,6 +14,7 @@ public class CreateCarCommand
     {
         var car = new Car
         {
+            Id = dto.Id,
             Make = dto.Make,
             Model = dto.Model,
             Year = dto.Year,
